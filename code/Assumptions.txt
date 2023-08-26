@@ -1,0 +1,3 @@
+- All pins of stepper motor are assumed to be connected to the same port in ascending order
+- The only error can happen in frame is that the number of letters is incorrect or the user forgot to write 'E', but if those two cases are right, then I assume that every letter will be written correctly. as an example, in the fourth letter which decide if the motor will move forward or backward, I assume that the letter will be either 'F' or 'B', nothing rather that. The three places of the speed will all be numbers not characters, and so on.
+- If smaller than 8 letters were sent, then they will be completed by any garbage letters and new 8 letters will be send again
